@@ -34,7 +34,7 @@ class _SettingsWidgetState extends State<SettingsWidget> {
   Future<void> _saveIp(String ip) async {
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
-      await prefs.setString("server_ip", "192.168.1.110");
+      await prefs.setString("server_ip", ip);
       return ip;
     } on Exception catch (_) {
       return;
