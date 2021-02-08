@@ -1,8 +1,8 @@
-# ohp_controller
+# OHP Controller
 
 Controller for Open Home Panel
 
-## Install APK
+## Download APK
 
 [Download Release](https://github.com/rastislav-domanisky/OHP-Controller/releases/tag/v1)
 
